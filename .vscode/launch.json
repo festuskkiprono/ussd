@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug phones",
+      "type": "chrome",
+      "request": "launch",
+      "runtimeExecutable": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
+      "url": "http://127.0.0.1:5500/index.html",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "tsc: watch - tsconfig.json"
+    },
+    {
+      "name": "Debug logs page",
+      "type": "chrome",
+      "request": "launch",
+      "runtimeExecutable": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
+      "url": "http://127.0.0.1:5500/logs.html",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "tsc: watch - tsconfig.json"
+    }
+  ]
+}
